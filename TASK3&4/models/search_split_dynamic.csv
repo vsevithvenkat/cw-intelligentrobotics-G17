@@ -1,0 +1,53 @@
+stage,arm,size,layers,activation,alpha,lr_max,best_epoch,val_mse
+branch_topology_search,scara,medium,"(64, 32)",tanh,0.0001,0.003,192,0.00015424082359128592
+branch_topology_search,scara,medium,"(64, 32)",relu,0.0001,0.003,155,0.00016077582930218814
+branch_topology_search,scara,medium,"(128, 64)",tanh,0.0001,0.003,200,0.00014868089587418348
+branch_topology_search,scara,medium,"(128, 64)",relu,0.0001,0.003,200,0.00014963497491642417
+branch_topology_search,scara,medium,"(128, 64, 32)",tanh,0.0001,0.003,98,0.00013045361059502695
+branch_topology_search,scara,medium,"(128, 64, 32)",relu,0.0001,0.003,179,0.000150889800446314
+branch_topology_search,scara,medium,"(128, 128, 64)",tanh,0.0001,0.003,200,0.0001340433721710151
+branch_topology_search,scara,medium,"(128, 128, 64)",relu,0.0001,0.003,200,0.00014054405298727347
+branch_topology_search,ned,medium,"(64, 32)",tanh,0.0001,0.003,165,0.0010745540002752066
+branch_topology_search,ned,medium,"(64, 32)",relu,0.0001,0.003,165,0.0011688299307186644
+branch_topology_search,ned,medium,"(128, 64)",tanh,0.0001,0.003,144,0.0010786024862066376
+branch_topology_search,ned,medium,"(128, 64)",relu,0.0001,0.003,165,0.0010699667741375582
+branch_topology_search,ned,medium,"(128, 64, 32)",tanh,0.0001,0.003,122,0.0010667928519131039
+branch_topology_search,ned,medium,"(128, 64, 32)",relu,0.0001,0.003,199,0.001148901379996339
+branch_topology_search,ned,medium,"(128, 128, 64)",tanh,0.0001,0.003,108,0.001131523394696144
+branch_topology_search,ned,medium,"(128, 128, 64)",relu,0.0001,0.003,144,0.0010538099114241074
+size_tuning,scara,small,"(128, 64, 32)",tanh,0.001,0.001,347,0.00024129652617289744
+size_tuning,scara,small,"(128, 64, 32)",tanh,0.001,0.003,325,0.00022575430971467081
+size_tuning,scara,small,"(128, 64, 32)",tanh,0.0001,0.001,301,0.0002447374217423965
+size_tuning,scara,small,"(128, 64, 32)",tanh,0.0001,0.003,303,0.00019424181612096947
+size_tuning,scara,small,"(128, 64, 32)",tanh,1e-05,0.001,301,0.00023574675166308142
+size_tuning,scara,small,"(128, 64, 32)",tanh,1e-05,0.003,327,0.00020318383102012593
+size_tuning,ned,small,"(128, 128, 64)",relu,0.001,0.001,329,8.336345729330155e-05
+size_tuning,ned,small,"(128, 128, 64)",relu,0.001,0.003,249,8.725455590746801e-05
+size_tuning,ned,small,"(128, 128, 64)",relu,0.0001,0.001,309,8.94323038889362e-05
+size_tuning,ned,small,"(128, 128, 64)",relu,0.0001,0.003,236,8.343257136872087e-05
+size_tuning,ned,small,"(128, 128, 64)",relu,1e-05,0.001,253,0.0001107552490069974
+size_tuning,ned,small,"(128, 128, 64)",relu,1e-05,0.003,257,8.241614545840936e-05
+size_tuning,scara,medium,"(128, 64, 32)",tanh,0.001,0.001,286,0.00016725786725683853
+size_tuning,scara,medium,"(128, 64, 32)",tanh,0.001,0.003,200,0.00014539252852559153
+size_tuning,scara,medium,"(128, 64, 32)",tanh,0.0001,0.001,267,0.00014536784598756717
+size_tuning,scara,medium,"(128, 64, 32)",tanh,0.0001,0.003,303,0.00011933108831732906
+size_tuning,scara,medium,"(128, 64, 32)",tanh,1e-05,0.001,247,0.00014835086157893892
+size_tuning,scara,medium,"(128, 64, 32)",tanh,1e-05,0.003,286,0.00012169334004047335
+size_tuning,ned,medium,"(128, 128, 64)",relu,0.001,0.001,238,0.0010629074628583813
+size_tuning,ned,medium,"(128, 128, 64)",relu,0.001,0.003,311,0.0010076199363593607
+size_tuning,ned,medium,"(128, 128, 64)",relu,0.0001,0.001,311,0.0010050319047421286
+size_tuning,ned,medium,"(128, 128, 64)",relu,0.0001,0.003,238,0.0010148752639930498
+size_tuning,ned,medium,"(128, 128, 64)",relu,1e-05,0.001,275,0.0010586624860674234
+size_tuning,ned,medium,"(128, 128, 64)",relu,1e-05,0.003,275,0.0010394413714540924
+size_tuning,scara,large,"(128, 64, 32)",tanh,0.001,0.001,220,0.00011884567155769776
+size_tuning,scara,large,"(128, 64, 32)",tanh,0.001,0.003,330,0.00011582953084895555
+size_tuning,scara,large,"(128, 64, 32)",tanh,0.0001,0.001,265,9.86296807380847e-05
+size_tuning,scara,large,"(128, 64, 32)",tanh,0.0001,0.003,265,9.327050494282062e-05
+size_tuning,scara,large,"(128, 64, 32)",tanh,1e-05,0.001,348,9.376571594019798e-05
+size_tuning,scara,large,"(128, 64, 32)",tanh,1e-05,0.003,269,9.094657414906513e-05
+size_tuning,ned,large,"(128, 128, 64)",relu,0.001,0.001,320,0.0004805894872770429
+size_tuning,ned,large,"(128, 128, 64)",relu,0.001,0.003,237,0.00048248355984979084
+size_tuning,ned,large,"(128, 128, 64)",relu,0.0001,0.001,237,0.00046801459380567525
+size_tuning,ned,large,"(128, 128, 64)",relu,0.0001,0.003,320,0.00047217974887876237
+size_tuning,ned,large,"(128, 128, 64)",relu,1e-05,0.001,309,0.0004471838375200792
+size_tuning,ned,large,"(128, 128, 64)",relu,1e-05,0.003,305,0.00044519554390211276
